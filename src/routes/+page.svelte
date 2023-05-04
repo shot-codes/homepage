@@ -3,8 +3,12 @@
   import UiScene from "$lib/components/UiScene.svelte";
 </script>
 
-<h1 class="m-4 text-white text-[20px] fixed font-mono pointer-none">
-  shot.codes
-</h1>
 <Scene />
 <UiScene />
+<div class="fixed m-4 flex flex-col text-white font-mono">
+  <h1 class="text-[20px] pointer-none">
+    shot.codes
+  </h1>
+  <!-- <a href="/">test</a> -->
+  <!-- <a href="/about">about</a> -->
+</div>
