@@ -7,8 +7,9 @@
 <div class="absolute w-full h-full">
   <Canvas>
     <Pass pass={new FilmPass(200, 1, 100, 0)} />
+
     <T.PerspectiveCamera makeDefault position={[0, 1, 20]} fov={5}>
-      <OrbitControls target={{ y: 1.1 }} />
+      <OrbitControls target={{ y: 0 }} />
     </T.PerspectiveCamera>
 
     <T.DirectionalLight position={[7, 20, 10]} color={0xfff} intensity={0.03} />

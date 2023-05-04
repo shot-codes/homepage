@@ -16,7 +16,7 @@
   }
 </script>
 
-<T.Group rotation={[rot.x, rot.y, rot.z]} position={[0, 1, 0]}>
+<T.Group rotation={[rot.x, rot.y, rot.z]} position={[0, 0, 0]}>
   <GLTF
     url="/models/bust.gltf"
     scale={4}
